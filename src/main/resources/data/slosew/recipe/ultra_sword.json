@@ -1,0 +1,18 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "ingredients": [
+    {
+      "item": "slosew:ultra_upgrade"
+    },
+    {
+      "item": "minecraft:netherite_sword"
+    },
+    {
+      "item": "slosew:amenezeritium"
+    }
+  ],
+  "result": {
+    "id": "slosew:ultra_sword",
+    "count": 1
+  }
+}

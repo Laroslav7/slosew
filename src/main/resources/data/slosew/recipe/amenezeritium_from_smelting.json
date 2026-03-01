@@ -1,0 +1,11 @@
+{
+  "type": "minecraft:smelting",
+  "ingredient": {
+    "item": "slosew:amenezeritium_ore"
+  },
+  "result": {
+    "id": "slosew:amenezeritium"
+  },
+  "experience": 0.7,
+  "cookingtime": 200
+}

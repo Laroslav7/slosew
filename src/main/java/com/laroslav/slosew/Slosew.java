@@ -1,24 +1,21 @@
 package com.laroslav.slosew;
 
+import com.laroslav.slosew.block.ModBlocks;
+import com.laroslav.slosew.item.ModItems;
+import com.laroslav.slosew.world.ModWorldGen;
 import net.fabricmc.api.ModInitializer;
-
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
 
 public class Slosew implements ModInitializer {
 	public static final String MOD_ID = "slosew";
-
-	// This logger is used to write text to the console and the log file.
-	// It is considered best practice to use your mod id as the logger's name.
-	// That way, it's clear which mod wrote info, warnings, and errors.
 	public static final Logger LOGGER = LoggerFactory.getLogger(MOD_ID);
 
 	@Override
 	public void onInitialize() {
-		// This code runs as soon as Minecraft is in a mod-load-ready state.
-		// However, some things (like resources) may still be uninitialized.
-		// Proceed with mild caution.
-
-		LOGGER.info("Hello Fabric world!");
+		ModBlocks.register();
+		ModItems.register();
+		ModWorldGen.register();
+		LOGGER.info("Slosew loaded with custom swords and ore");
 	}
 }

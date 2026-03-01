@@ -1,0 +1,23 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "AAA",
+    "SNS",
+    "   "
+  ],
+  "key": {
+    "A": {
+      "item": "slosew:amenezeritium"
+    },
+    "S": {
+      "item": "minecraft:netherite_scrap"
+    },
+    "N": {
+      "item": "minecraft:netherite_upgrade_smithing_template"
+    }
+  },
+  "result": {
+    "id": "slosew:ultra_upgrade",
+    "count": 1
+  }
+}
